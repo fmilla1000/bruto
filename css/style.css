@@ -4,4 +4,22 @@
   box-sizing: border-box;
 }
 
+.header1 {
+  padding: 5px;
+  background-color: #1E1E40;
+  color: white;
+}
+.header1 .btn {
+  padding: 10px;
+}
+
+.header2 {
+  padding: 15px;
+}
+
+.rounded {
+  width: 75px;
+  height: 75px;
+}
+
 /*# sourceMappingURL=style.css.map */
