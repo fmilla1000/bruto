@@ -5,12 +5,16 @@
 }
 
 .header1 {
-  padding: 5px;
-  background-color: #1E1E40;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color: #1b2638;
   color: white;
 }
-.header1 .btn {
-  padding: 10px;
+.header1 p {
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .header2 {
@@ -20,6 +24,22 @@
 .rounded {
   width: 75px;
   height: 75px;
+}
+
+.row .col {
+  background-color: #1b2638;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 10%;
+}
+.row .col p {
+  color: red;
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+}
+.row .col h1 {
+  color: white;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
