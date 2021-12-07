@@ -5,8 +5,8 @@
 }
 
 .header1 {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   padding-left: 13px;
   padding-right: 13px;
   background-color: #1b2638;
@@ -18,7 +18,29 @@
 }
 
 .header2 {
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header2 .btn {
+  padding: 0;
+}
+.header2 .menu {
+  height: 25px;
+  width: 30px;
+  align-self: center;
+}
+.header2 .logo {
+  width: 75px;
+  height: 75px;
+}
+.header2 .person {
+  width: 30px;
+  height: 30px;
+  align-self: center;
 }
 
 .rounded {
@@ -26,20 +48,76 @@
   height: 75px;
 }
 
-.row .col {
+.principal .row .col {
   background-color: #1b2638;
   padding-left: 3rem;
   padding-right: 3rem;
   padding-top: 10%;
 }
-.row .col p {
+.principal .row .col p {
   color: red;
   margin-bottom: 0.4rem;
   margin-top: 0;
 }
-.row .col h1 {
+.principal .row .col h1 {
   color: white;
   font-weight: bold;
+}
+
+.cositas {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.cositas .card-img-top {
+  height: 20rem;
+}
+.cositas .card {
+  border: none;
+}
+.cositas .card-body {
+  padding-right: 0;
+  padding-left: 0;
+}
+.cositas .btn {
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.cositas p {
+  margin-bottom: 0px;
+}
+.cositas .modal-body p {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.footer {
+  background-color: #1b2638;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 4rem;
+  padding-top: 6rem;
+}
+.footer h6 {
+  color: white;
+  font-weight: bold;
+}
+.footer a {
+  color: #b9b6b6;
+  text-decoration: none;
+}
+.footer p {
+  color: #b9b6b6;
+  margin-bottom: 0;
+}
+.footer ul {
+  padding-left: 1.3rem;
+  margin-bottom: 0;
+}
+.footer li {
+  color: #b9b6b6;
 }
 
 /*# sourceMappingURL=style.css.map */
